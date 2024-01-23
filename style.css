@@ -1,0 +1,246 @@
+/* Hero Section Styling */
+body {
+  font-family: 'Segoe UI', sans-serif; /* Changed to Segoe UI for a more modern look */
+  color: #333333; /* Slightly darker text for contrast */
+  background-color: #f8f9fa;
+}
+/* Links Styling */
+a {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #001F3F;
+  color: #ffffff;
+}
+
+h2 {
+  color: #0056b3; /* New color for headings */
+  font-size: 1.75rem; /* Increased font size */
+  margin-bottom: 20px;
+}
+/* Increased size and added margin for social icons */
+.hero-social-links a {
+  color: #ffffff;
+  margin: 0 15px; /* Increased spacing */
+  font-size: 2rem; /* Increased size */
+}
+
+.hero-social-links a:hover {
+  color: #4CAF50;
+}
+
+#education, #work-experience, #skills, #awards-certifications {
+    text-align: center;
+    padding: 20px;
+}
+/* Work Experience and Education Section */
+#work-experience h3, #education h2 {
+  color: #004085;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+
+/*CSS code for education section*/
+#education {
+  text-align: center; /* Center aligns the content */
+  padding: 20px;
+}
+
+.section-heading {
+  margin-bottom: 20px;
+}
+
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.education-image img {
+  max-width: 400px; 
+  margin-bottom: 20px;
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+.education-list {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  max-width: 600px;
+}
+
+.education-list li {
+  background-color: #f8f9fa; /* Light background for each item */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px; /* Optional rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Work Experience Section */
+#work-experience {
+  text-align: center;
+  padding: 20px;
+}
+
+.work-experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work-experience-image img {
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.work-experience-details h3, h4 {
+  color: #004085;
+  margin-top: 15px;
+}
+
+.work-experience-details ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  text-align: center;
+}
+
+.work-experience-details ul li {
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Section */
+#skills {
+  text-align: center;
+  padding: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-image img {
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  text-align: left;
+}
+
+.skills-list li {
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Awards and Certifications Section */
+#awards-certifications {
+  text-align: center;
+  padding: 20px;
+}
+
+.awards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.awards-image img {
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.awards-details p, .awards-details ul {
+  max-width: 600px;
+  text-align: left;
+}
+
+.awards-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.awards-details p {
+  color: #004085;
+  margin-top: 15px;
+}
+
+.awards-details ul li {
+  background-color: #f8f9fa;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+  background-color: #012750; /* Darker shade for footer */
+  color: #ffffff;
+  padding: 40px 0; /* Increased padding */
+  width: 100%; /* Ensure footer takes full width */
+  box-sizing: border-box;
+}
+
+footer a.text-white:hover, footer a.text-white:focus {
+  color: #4CAF50;
+  transition: color 0.3s ease; /* Smooth transition for hover and focus */
+}
+
+footer h5 {
+  margin-bottom: 20px;
+  font-size: 1.2rem; /* Slightly larger heading */
+}
+
+footer p, footer ul {
+  font-size: 1rem;
+  margin-bottom: 15px; /* Spacing between elements */
+}
+
+footer .fa { /* Icon styling */
+  font-size: 1.5rem; /* Larger icons */
+  margin-right: 10px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  footer .row > div {
+    margin-bottom: 20px; /* Spacing for mobile layout */
+  }
+}
+
+/* Hover effects for icons */
+footer .fa:hover {
+  color: #4CAF50;
+}
+
